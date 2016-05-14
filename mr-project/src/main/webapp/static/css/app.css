@@ -1,0 +1,101 @@
+body, #mainWrapper {
+	height: 70%;
+}
+
+body, .form-control{
+	font-size:12px!important;
+}
+
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.formcontainer{
+	background-color: #DAE8E8;
+	padding: 20px;
+}
+
+.tablecontainer{
+	padding-left: 20px;
+}
+
+.generic-container {
+  width:980px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.container {
+  width:980px;
+  margin: 0 auto;
+}
+
+.custom-width {
+    width: 60px !important;
+}
+
+.restaurantname.ng-valid {
+	background-color: lightgreen;
+}
+
+.restaurantname.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.restaurantname.ng-dirty.ng-invalid-minlength {
+	background-color: yellow;
+}
+
+.email.ng-valid {
+	background-color: lightgreen;
+}
+
+.email.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.email.ng-dirty.ng-invalid-email {
+	background-color: yellow;
+}
+
+.nav-menu{
+	height: 50px;
+	background-color: #000;
+}
+.nav-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.nav-menu ul li{
+	float:left;
+	padding: 15px;
+}
+.nav-menu ul li a{
+	color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:hover{
+	text-decoration: none;
+}
+.popup button, .popup input{
+	display: none;
+}
+.popup tbody tr:FIRST-CHILD {
+	display: none;
+}
+
+.popup tr td:nth-child(5n), .popup tr th:nth-child(5n) {
+	display: none;
+}
+.table .btn{
+	padding: 2px 0!important;
+}
